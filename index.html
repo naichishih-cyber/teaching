@@ -16,6 +16,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .courses{display:grid;grid-template-columns:1fr;gap:22px 16px}
 @media (min-width:560px){.courses{grid-template-columns:repeat(2,1fr)}}
 @media (min-width:900px){.courses{grid-template-columns:repeat(4,1fr)}}
+.badges{display:flex;flex-wrap:nowrap;align-items:stretch;gap:6px;margin-bottom:14px}
+@media (max-width:559px){.badges{flex-direction:column;align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -95,7 +97,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 <h2 style="margin: 0 0 10px; font-size: 22px; font-weight: 600; color: #1F4A3D">Bonjour, je suis Naichi !</h2>
 <p style="margin: 0 0 10px; font-size: 15px; color: #3E4A4C">Originaire de Taïwan, je suis enseignante de chinois et d'anglais, passionnée par les langues, les cultures et les échanges humains.</p>
 <p style="margin: 0 0 14px; font-size: 15px; color: #3E4A4C">Mon approche privilégie la communication, la confiance et le plaisir d'apprendre, avec des cours adaptés à vos besoins.</p>
-<div style="display: flex; flex-wrap: nowrap; align-items: stretch; gap: 6px; margin-bottom: 14px">
+<div class="badges">
 <span style="flex: 0 0 auto; display: flex; align-items: center; padding: 3px 10px; border-radius: 10px; background: #FFFFFF; font-size: 15px; font-weight: 500; line-height: 1.35; color: #2B3436; white-space: nowrap">Certifiée CELTA</span>
 <span style="flex: 0 1 auto; min-width: 0; display: flex; align-items: center; padding: 3px 10px; border-radius: 10px; background: #FFFFFF; font-size: 15px; font-weight: 500; line-height: 1.35; color: #2B3436">M.A. enseignement du chinois langue étrangère</span>
 </div>
