@@ -13,6 +13,9 @@ body{margin:0;background:#F5F4F0;color:#2B3436;font-family:'Inter',system-ui,san
 html{scroll-behavior:smooth;}
 a{color:#1F4A3D}a:hover{color:#132F27}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #1F4A3D;outline-offset:2px}
+.courses{display:grid;grid-template-columns:1fr;gap:22px 16px}
+@media (min-width:560px){.courses{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:900px){.courses{grid-template-columns:repeat(4,1fr)}}
 </style>
 </head>
 <body>
@@ -61,7 +64,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 <section id="cours" style="padding: 0 clamp(14px, 4vw, 28px) 48px">
 <h2 style="margin: 0 0 22px; text-align: center; font-size: 24px; font-weight: 600; color: #1E2526">Des cours adaptés à vos objectifs</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 22px 16px">
+<div class="courses">
 <a href="chinois.html" style="display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: #1E2526">
 <div style="aspect-ratio: 4 / 3; border-radius: 12px; background: #ECE6DA; display: flex; align-items: center; justify-content: center; padding: 20px; text-align: center; font-size: 13px; color: #5C5243">[Photo : calligraphie, caractères chinois]</div>
 <span style="font-size: 17px; font-weight: 600">Chinois mandarin</span>
