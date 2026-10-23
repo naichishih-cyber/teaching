@@ -19,6 +19,22 @@ LANGS = {  # code: (folder, html lang, switcher label)
 SITE = 'https://ns-b24.pages.dev/'
 
 
+NBSP = '&nbsp;'
+
+
+def keep_punct(text):
+    """Stop punctuation from wrapping onto the start of a new line.
+
+    French puts a space before ? ! : ; » and after «, and the site uses
+    spaced · → ← separators; a normal space there lets the browser break
+    the line just before the mark. Use a non-breaking space instead.
+    """
+    text = re.sub(r' (?=[?!:;»·→])', NBSP, text)
+    text = re.sub(r'(?<=[«←]) ', NBSP, text)
+    text = re.sub(r'(?<=\d) h (?=\d)', NBSP + 'h' + NBSP, text)
+    return text
+
+
 def esc(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
@@ -53,7 +69,7 @@ def localize(src, page, code, missing):
     s = src
 
     def tr(raw):
-        key = html.unescape(raw).strip()
+        key = html.unescape(raw).replace('\u00a0', ' ').strip()
         if not key or code == 'fr':
             return raw
         if key in t:
@@ -67,7 +83,7 @@ def localize(src, page, code, missing):
     head, body = s.split('</head>', 1)
     head = re.sub(r'(<title>)(.*?)(</title>)', lambda m: m.group(1) + tr(m.group(2)) + m.group(3), head)
     head = re.sub(r'(<meta name="description" content=")([^"]*)(")', lambda m: m.group(1) + tr(m.group(2)).replace('"', '&quot;') + m.group(3), head)
-    body = re.sub(r'(>)([^<>]+)(<)', lambda m: m.group(1) + tr(m.group(2)) + m.group(3), body)
+    body = re.sub(r'(>)([^<>]+)(<)', lambda m: m.group(1) + keep_punct(tr(m.group(2))) + m.group(3), body)
     body = re.sub(r'( (?:alt|aria-label|placeholder|title)=")([^"]*)(")', lambda m: m.group(1) + tr(m.group(2)).replace('"', '&quot;') + m.group(3), body)
     s = head + '</head>' + body
 
@@ -82,7 +98,7 @@ def localize(src, page, code, missing):
         s = s.replace('src="assets/', 'src="../assets/')
     if code.startswith('zh'):
         # CJK has no true italics; keep headings upright
-        s = s.replace('</style>', 'h1{font-style:normal !important}\n</style>', 1)
+        s = s.replace('</style>', 'h1{font-style:normal !important}\nhtml{line-break:strict}\n</style>', 1)
     if code == 'zh-hans':
         s = s.replace('Noto+Sans+TC', 'Noto+Sans+SC').replace("'Noto Sans TC'", "'Noto Sans SC'").replace('lang="zh-Hant"', 'lang="zh-Hans"')
     return s
