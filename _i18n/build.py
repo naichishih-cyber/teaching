@@ -26,10 +26,10 @@ def keep_punct(text):
     """Stop punctuation from wrapping onto the start of a new line.
 
     French puts a space before ? ! : ; » and after «, and the site uses
-    spaced · → ← separators; a normal space there lets the browser break
+    spaced · • → ← separators; a normal space there lets the browser break
     the line just before the mark. Use a non-breaking space instead.
     """
-    text = re.sub(r' (?=[?!:;»·→])', NBSP, text)
+    text = re.sub(r' (?=[?!:;»·•→])', NBSP, text)
     text = re.sub(r'(?<=[«←]) ', NBSP, text)
     text = re.sub(r'(?<=\d) h (?=\d)', NBSP + 'h' + NBSP, text)
     # keep the place name 法國・格勒 / 法国・格勒 on one line

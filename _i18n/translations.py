@@ -21,7 +21,7 @@ T['en'] = {
     'Anglais': 'English',
     'Chinois': 'Chinese',
     '© 2026 Naichi · Langues & Cultures': '© 2026 Naichi · Languages & Cultures',
-    'Grenoble · En ligne': 'Grenoble · Online',
+    'Grenoble • France · En ligne': 'Grenoble • France · Online',
 
     # ---------- index ----------
     'Naichi — Langues et Cultures': 'Naichi — Languages & Cultures',
@@ -264,7 +264,7 @@ T['zh-hant'] = {
     'Anglais': '英文',
     'Chinois': '中文',
     '© 2026 Naichi · Langues & Cultures': '© 2026 Naichi · 語言與文化',
-    'Grenoble · En ligne': '法國・格勒及線上',
+    'Grenoble • France · En ligne': '法國・格勒及線上',
 
     # ---------- index ----------
     'Naichi — Langues et Cultures': 'Naichi｜語言與文化',
@@ -505,7 +505,7 @@ T['zh-hans'] = {
     'Anglais': '英语',
     'Chinois': '中文',
     '© 2026 Naichi · Langues & Cultures': '© 2026 Naichi · 语言与文化',
-    'Grenoble · En ligne': '法国・格勒及线上',
+    'Grenoble • France · En ligne': '法国・格勒及线上',
     # language samples in simplified characters
     '慢慢來，比較快。': '慢慢来，比较快。',
     '小事一樁': '小事一桩',
