@@ -32,6 +32,9 @@ def keep_punct(text):
     text = re.sub(r' (?=[?!:;»·•→])', NBSP, text)
     text = re.sub(r'(?<=[«←]) ', NBSP, text)
     text = re.sub(r'(?<=\d) h (?=\d)', NBSP + 'h' + NBSP, text)
+    # Chinese homepage headline: on narrow screens wrap only after the comma
+    text = re.sub(r'(學習一種語言，|学习一种语言，)(探索一個世界|探索一个世界)',
+                  lambda m: ''.join('<span style="display: inline-block">' + g + '</span>' for g in m.groups()), text)
     # keep the place name 法國・格勒 / 法国・格勒 on one line
     text = re.sub(r'法[國国]・格勒', lambda m: '<span style="white-space: nowrap">' + m.group(0) + '</span>', text)
     return text
