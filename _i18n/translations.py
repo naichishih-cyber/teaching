@@ -8,7 +8,7 @@ T = {}
 
 # Strings that stay the same in every language (names, language samples, symbols).
 T['same'] = {
-    'Naichi SHIH', 'FR', 'EN', 'Business English', 'Màn màn lái, bǐjiào kuài.',
+    'Naichi', 'FR', 'EN', 'Business English', 'Màn màn lái, bǐjiào kuài.',
     '“Slow and steady wins the race.”', 'Keep going!', 'Hello', 'a piece of cake',
     'Courage ! ·', 'Bonjour ·', "C'est du gâteau ·", 'jiāyóu', 'nǐ hǎo', 'TOEIC',
 }
@@ -20,13 +20,13 @@ T['en'] = {
     'Me contacter': 'Contact me',
     'Anglais': 'English',
     'Chinois': 'Chinese',
-    '© 2026 Naichi SHIH · Langues & Cultures': '© 2026 Naichi SHIH · Languages & Cultures',
+    '© 2026 Naichi · Langues & Cultures': '© 2026 Naichi · Languages & Cultures',
     'Grenoble · En ligne': 'Grenoble · Online',
 
     # ---------- index ----------
-    'Naichi SHIH — Langues et Cultures': 'Naichi SHIH — Languages & Cultures',
-    "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi SHIH, Langues & Cultures.":
-        'Mandarin Chinese and English lessons in Grenoble and online, language training for companies, and parent & child workshops. Naichi SHIH, Languages & Cultures.',
+    'Naichi — Langues et Cultures': 'Naichi — Languages & Cultures',
+    "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi, Langues & Cultures.":
+        'Mandarin Chinese and English lessons in Grenoble and online, language training for companies, and parent & child workshops. Naichi, Languages & Cultures.',
     'Navigation principale': 'Main navigation',
     'Cours': 'Lessons',
     'Entreprises': 'Business',
@@ -56,7 +56,7 @@ T['en'] = {
     'Une mère et sa fille réalisant un bricolage en papier': 'A mother and daughter making a paper craft together',
     'Ateliers parents-enfants': 'Parent & Child Workshops',
     'Histoires en chinois ou en anglais, puis bricolage.': 'A story in Chinese or English, followed by a craft.',
-    'Portrait de Naichi SHIH': 'Portrait of Naichi SHIH',
+    'Portrait de Naichi': 'Portrait of Naichi',
     'Bonjour, je suis Naichi !': "Hi, I'm Naichi!",
     "Originaire de Taïwan, je suis enseignante de chinois et d'anglais, passionnée par les langues, les cultures et les échanges humains.":
         "Originally from Taiwan, I teach Chinese and English, and I'm passionate about languages, cultures and connecting with people.",
@@ -88,7 +88,7 @@ T['en'] = {
     'Envoyer': 'Send',
 
     # ---------- chinois ----------
-    'Cours de chinois — Naichi SHIH': 'Chinese Lessons — Naichi SHIH',
+    'Cours de chinois — Naichi': 'Chinese Lessons — Naichi',
     'Cours de chinois mandarin à Grenoble et en ligne : débutants, conversation, chinois professionnel, langue et culture.':
         'Mandarin Chinese lessons in Grenoble and online: beginners, conversation, business Chinese, language and culture.',
     'Cours de chinois mandarin à Grenoble et en ligne': 'Mandarin Chinese lessons in Grenoble and online',
@@ -120,7 +120,7 @@ T['en'] = {
         'Get in touch to talk about your level, your goals and the options available. Rates on request.',
 
     # ---------- anglais ----------
-    "Cours d'anglais — Naichi SHIH": 'English Lessons — Naichi SHIH',
+    "Cours d'anglais — Naichi": 'English Lessons — Naichi',
     "Cours d'anglais à Grenoble et en ligne : anglais général, conversation, Business English, préparation au TOEIC.":
         'English lessons in Grenoble and online: general English, conversation, Business English and TOEIC preparation.',
     "Cours d'anglais à Grenoble et en ligne": 'English lessons in Grenoble and online',
@@ -151,7 +151,7 @@ T['en'] = {
         'Get in touch to discuss your needs and plan a learning path that suits you. Rates on request.',
 
     # ---------- entreprises ----------
-    'Formations pour entreprises — Naichi SHIH': 'Corporate Training — Naichi SHIH',
+    'Formations pour entreprises — Naichi': 'Corporate Training — Naichi',
     'Formations en anglais professionnel, initiation au chinois et ateliers interculturels pour les entreprises de Grenoble et sa région.':
         'Business English training, introductory Chinese and intercultural workshops for companies in Grenoble and the surrounding area.',
     'Formations linguistiques et ateliers interculturels pour entreprises': 'Language training and intercultural workshops for businesses',
@@ -185,7 +185,7 @@ T['en'] = {
     'Demander une proposition': 'Request a proposal',
 
     # ---------- ateliers ----------
-    'Ateliers parents-enfants — Naichi SHIH': 'Parent & Child Workshops — Naichi SHIH',
+    'Ateliers parents-enfants — Naichi': 'Parent & Child Workshops — Naichi',
     'Ateliers parents-enfants à Grenoble pour les 2 à 8 ans : une histoire en chinois ou en anglais, puis un bricolage.':
         'Parent & child workshops in Grenoble for ages 2 to 8: a story in Chinese or English, followed by a craft.',
     'Ateliers parents-enfants à Grenoble': 'Parent & child workshops in Grenoble',
@@ -221,11 +221,11 @@ T['en'] = {
         'Get in touch to find out the next dates and book a spot. Rates on request.',
 
     # ---------- parcours ----------
-    'Mon parcours — Naichi SHIH': 'About Me — Naichi SHIH',
-    "Le parcours de Naichi SHIH, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
-        'Meet Naichi SHIH, a Chinese and English teacher from Taiwan based in Grenoble.',
+    'Mon parcours — Naichi': 'About Me — Naichi',
+    "Le parcours de Naichi, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
+        'Meet Naichi, a Chinese and English teacher from Taiwan based in Grenoble.',
     'Mon parcours': 'My background',
-    'Bonjour, je suis Naichi SHIH': "Hi, I'm Naichi SHIH",
+    'Bonjour, je suis Naichi': "Hi, I'm Naichi",
     "Enseignante de chinois et d'anglais, passionnée par les langues et les cultures":
         'Chinese and English teacher with a passion for languages and cultures',
     "Originaire de Taïwan et installée à Grenoble, j'ai construit mon parcours autour de l'enseignement, de la communication et des échanges interculturels.":
@@ -258,18 +258,17 @@ T['en'] = {
 
 T['zh-hant'] = {
     # ---------- shared ----------
-    'Naichi SHIH': '乃綺',
     'Langues & Cultures': '語言與文化',
     "← Retour à l'accueil": '← 回到首頁',
     'Me contacter': '聯絡我',
     'Anglais': '英文',
     'Chinois': '中文',
-    '© 2026 Naichi SHIH · Langues & Cultures': '© 2026 乃綺 · 語言與文化',
+    '© 2026 Naichi · Langues & Cultures': '© 2026 乃綺 · 語言與文化',
     'Grenoble · En ligne': '格勒諾布爾 · 線上',
 
     # ---------- index ----------
-    'Naichi SHIH — Langues et Cultures': '乃綺｜語言與文化',
-    "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi SHIH, Langues & Cultures.":
+    'Naichi — Langues et Cultures': '乃綺｜語言與文化',
+    "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi, Langues & Cultures.":
         '在格勒諾布爾及線上教授中文與英文，並提供企業語言培訓與親子工作坊。乃綺｜語言與文化',
     'Navigation principale': '主選單',
     'Cours': '課程',
@@ -299,7 +298,7 @@ T['zh-hant'] = {
     'Une mère et sa fille réalisant un bricolage en papier': '媽媽和女兒在手作課上一起用紙創作',
     'Ateliers parents-enfants': '親子工作坊',
     'Histoires en chinois ou en anglais, puis bricolage.': '用中文或英文說故事，接著一起上手作課。',
-    'Portrait de Naichi SHIH': '乃綺的照片',
+    'Portrait de Naichi': '乃綺的照片',
     'Bonjour, je suis Naichi !': '嗨，我是乃綺！',
     "Originaire de Taïwan, je suis enseignante de chinois et d'anglais, passionnée par les langues, les cultures et les échanges humains.":
         '我來自台灣，是中文與英文老師，熱愛語言和文化，也很喜歡和人交流。',
@@ -331,7 +330,7 @@ T['zh-hant'] = {
     'Envoyer': '送出',
 
     # ---------- chinois ----------
-    'Cours de chinois — Naichi SHIH': '中文課程｜乃綺',
+    'Cours de chinois — Naichi': '中文課程｜乃綺',
     'Cours de chinois mandarin à Grenoble et en ligne : débutants, conversation, chinois professionnel, langue et culture.':
         '格勒諾布爾及線上中文課程：零基礎入門、會話、商務中文、語言與文化。',
     'Cours de chinois mandarin à Grenoble et en ligne': '格勒諾布爾・線上中文課程',
@@ -363,7 +362,7 @@ T['zh-hant'] = {
         '歡迎聯絡我，聊聊你的程度、目標和適合的上課方式。費用請來信詢問。',
 
     # ---------- anglais ----------
-    "Cours d'anglais — Naichi SHIH": '英文課程｜乃綺',
+    "Cours d'anglais — Naichi": '英文課程｜乃綺',
     "Cours d'anglais à Grenoble et en ligne : anglais général, conversation, Business English, préparation au TOEIC.":
         '格勒諾布爾及線上英文課程：生活英文、英文會話、商用英文與多益準備。',
     "Cours d'anglais à Grenoble et en ligne": '格勒諾布爾・線上英文課程',
@@ -395,7 +394,7 @@ T['zh-hant'] = {
         '歡迎聯絡我，討論你的需求，一起規劃適合你的學習計畫。費用請來信詢問。',
 
     # ---------- entreprises ----------
-    'Formations pour entreprises — Naichi SHIH': '企業培訓｜乃綺',
+    'Formations pour entreprises — Naichi': '企業培訓｜乃綺',
     'Formations en anglais professionnel, initiation au chinois et ateliers interculturels pour les entreprises de Grenoble et sa région.':
         '為格勒諾布爾及周邊地區企業提供商用英文培訓、中文入門課程與跨文化工作坊。',
     'Formations linguistiques et ateliers interculturels pour entreprises': '企業語言培訓與跨文化工作坊',
@@ -429,7 +428,7 @@ T['zh-hant'] = {
     'Demander une proposition': '索取提案',
 
     # ---------- ateliers ----------
-    'Ateliers parents-enfants — Naichi SHIH': '親子工作坊｜乃綺',
+    'Ateliers parents-enfants — Naichi': '親子工作坊｜乃綺',
     'Ateliers parents-enfants à Grenoble pour les 2 à 8 ans : une histoire en chinois ou en anglais, puis un bricolage.':
         '格勒諾布爾親子工作坊，適合 2 至 8 歲的孩子：先聽中文或英文故事，再一起上手作課。',
     'Ateliers parents-enfants à Grenoble': '格勒諾布爾親子工作坊',
@@ -464,11 +463,11 @@ T['zh-hant'] = {
         '歡迎聯絡我，了解下一場的日期並預約名額。費用請來信詢問。',
 
     # ---------- parcours ----------
-    'Mon parcours — Naichi SHIH': '關於我｜乃綺',
-    "Le parcours de Naichi SHIH, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
+    'Mon parcours — Naichi': '關於我｜乃綺',
+    "Le parcours de Naichi, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
         '認識乃綺：來自台灣、定居格勒諾布爾的中文與英文老師。',
     'Mon parcours': '我的經歷',
-    'Bonjour, je suis Naichi SHIH': '你好，我是乃綺',
+    'Bonjour, je suis Naichi': '你好，我是乃綺',
     "Enseignante de chinois et d'anglais, passionnée par les langues et les cultures": '中文與英文老師，熱愛語言與文化',
     "Originaire de Taïwan et installée à Grenoble, j'ai construit mon parcours autour de l'enseignement, de la communication et des échanges interculturels.":
         '我來自台灣，現居格勒諾布爾，一路走來的經歷都圍繞著教學、溝通與跨文化交流。',
@@ -500,13 +499,12 @@ T['zh-hant'] = {
 
 T['zh-hans'] = {
     # ---------- shared ----------
-    'Naichi SHIH': '乃绮',
     'Langues & Cultures': '语言与文化',
     "← Retour à l'accueil": '← 返回首页',
     'Me contacter': '联系我',
     'Anglais': '英语',
     'Chinois': '中文',
-    '© 2026 Naichi SHIH · Langues & Cultures': '© 2026 乃绮 · 语言与文化',
+    '© 2026 Naichi · Langues & Cultures': '© 2026 乃绮 · 语言与文化',
     'Grenoble · En ligne': '格勒诺布尔 · 线上',
     # language samples in simplified characters
     '慢慢來，比較快。': '慢慢来，比较快。',
@@ -514,8 +512,8 @@ T['zh-hans'] = {
     '說': '说',
 
     # ---------- index ----------
-    'Naichi SHIH — Langues et Cultures': '乃绮｜语言与文化',
-    "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi SHIH, Langues & Cultures.":
+    'Naichi — Langues et Cultures': '乃绮｜语言与文化',
+    "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi, Langues & Cultures.":
         '在格勒诺布尔及线上教授中文和英语，并提供企业语言培训与亲子工作坊。乃绮｜语言与文化',
     'Navigation principale': '主导航',
     'Cours': '课程',
@@ -545,7 +543,7 @@ T['zh-hans'] = {
     'Une mère et sa fille réalisant un bricolage en papier': '妈妈和女儿在手工课上一起用纸创作',
     'Ateliers parents-enfants': '亲子工作坊',
     'Histoires en chinois ou en anglais, puis bricolage.': '用中文或英语讲故事，接着一起上手工课。',
-    'Portrait de Naichi SHIH': '乃绮的照片',
+    'Portrait de Naichi': '乃绮的照片',
     'Bonjour, je suis Naichi !': '你好，我是乃绮！',
     "Originaire de Taïwan, je suis enseignante de chinois et d'anglais, passionnée par les langues, les cultures et les échanges humains.":
         '我来自台湾，是一名中文和英语老师，热爱语言和文化，也喜欢与人交流。',
@@ -577,7 +575,7 @@ T['zh-hans'] = {
     'Envoyer': '发送',
 
     # ---------- chinois ----------
-    'Cours de chinois — Naichi SHIH': '中文课程｜乃绮',
+    'Cours de chinois — Naichi': '中文课程｜乃绮',
     'Cours de chinois mandarin à Grenoble et en ligne : débutants, conversation, chinois professionnel, langue et culture.':
         '格勒诺布尔及线上中文课程：零基础入门、会话、商务中文、语言与文化。',
     'Cours de chinois mandarin à Grenoble et en ligne': '格勒诺布尔・线上中文课程',
@@ -609,7 +607,7 @@ T['zh-hans'] = {
         '欢迎联系我，聊聊你的水平、目标和合适的上课方式。费用请咨询。',
 
     # ---------- anglais ----------
-    "Cours d'anglais — Naichi SHIH": '英语课程｜乃绮',
+    "Cours d'anglais — Naichi": '英语课程｜乃绮',
     "Cours d'anglais à Grenoble et en ligne : anglais général, conversation, Business English, préparation au TOEIC.":
         '格勒诺布尔及线上英语课程：日常英语、英语会话、商务英语和托业备考。',
     "Cours d'anglais à Grenoble et en ligne": '格勒诺布尔・线上英语课程',
@@ -641,7 +639,7 @@ T['zh-hans'] = {
         '欢迎联系我，沟通你的需求，一起规划适合你的学习计划。费用请咨询。',
 
     # ---------- entreprises ----------
-    'Formations pour entreprises — Naichi SHIH': '企业培训｜乃绮',
+    'Formations pour entreprises — Naichi': '企业培训｜乃绮',
     'Formations en anglais professionnel, initiation au chinois et ateliers interculturels pour les entreprises de Grenoble et sa région.':
         '为格勒诺布尔及周边地区企业提供商务英语培训、中文入门课程和跨文化工作坊。',
     'Formations linguistiques et ateliers interculturels pour entreprises': '企业语言培训与跨文化工作坊',
@@ -675,7 +673,7 @@ T['zh-hans'] = {
     'Demander une proposition': '获取方案',
 
     # ---------- ateliers ----------
-    'Ateliers parents-enfants — Naichi SHIH': '亲子工作坊｜乃绮',
+    'Ateliers parents-enfants — Naichi': '亲子工作坊｜乃绮',
     'Ateliers parents-enfants à Grenoble pour les 2 à 8 ans : une histoire en chinois ou en anglais, puis un bricolage.':
         '格勒诺布尔亲子工作坊，适合 2 至 8 岁的孩子：先听中文或英语故事，再一起上手工课。',
     'Ateliers parents-enfants à Grenoble': '格勒诺布尔亲子工作坊',
@@ -710,11 +708,11 @@ T['zh-hans'] = {
         '欢迎联系我，了解下一场的日期并预约名额。费用请咨询。',
 
     # ---------- parcours ----------
-    'Mon parcours — Naichi SHIH': '关于我｜乃绮',
-    "Le parcours de Naichi SHIH, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
+    'Mon parcours — Naichi': '关于我｜乃绮',
+    "Le parcours de Naichi, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
         '认识乃绮：来自台湾、定居格勒诺布尔的中文和英语老师。',
     'Mon parcours': '我的经历',
-    'Bonjour, je suis Naichi SHIH': '你好，我是乃绮',
+    'Bonjour, je suis Naichi': '你好，我是乃绮',
     "Enseignante de chinois et d'anglais, passionnée par les langues et les cultures": '中文和英语老师，热爱语言与文化',
     "Originaire de Taïwan et installée à Grenoble, j'ai construit mon parcours autour de l'enseignement, de la communication et des échanges interculturels.":
         '我来自台湾，现居格勒诺布尔，一路走来的经历都围绕着教学、沟通和跨文化交流。',
