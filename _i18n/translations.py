@@ -263,13 +263,13 @@ T['zh-hant'] = {
     'Me contacter': '聯絡我',
     'Anglais': '英文',
     'Chinois': '中文',
-    '© 2026 Naichi · Langues & Cultures': '© 2026 乃綺 · 語言與文化',
-    'Grenoble · En ligne': '格勒諾布爾 · 線上',
+    '© 2026 Naichi · Langues & Cultures': '© 2026 Naichi · 語言與文化',
+    'Grenoble · En ligne': '法國・格勒及線上',
 
     # ---------- index ----------
-    'Naichi — Langues et Cultures': '乃綺｜語言與文化',
+    'Naichi — Langues et Cultures': 'Naichi｜語言與文化',
     "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi, Langues & Cultures.":
-        '在格勒諾布爾及線上教授中文與英文，並提供企業語言培訓與親子工作坊。乃綺｜語言與文化',
+        '在法國・格勒及線上教授中文與英文，並提供企業語言培訓與親子工作坊。Naichi｜語言與文化',
     'Navigation principale': '主選單',
     'Cours': '課程',
     'Entreprises': '企業培訓',
@@ -282,7 +282,7 @@ T['zh-hant'] = {
     'Chinois • Anglais • Cultures': '中文 • 英文 • 文化',
     'Apprenez une langue, découvrez un monde.': '學習一種語言，探索一個世界',
     "Des cours personnalisés de chinois et d'anglais à Grenoble et en ligne, pour apprendre avec plaisir, confiance et curiosité.":
-        '在格勒諾布爾或線上，量身打造的中文與英文課程，讓你學得開心、說得有自信，永遠保持好奇心。',
+        '在法國・格勒或線上，量身打造的中文與英文課程，讓你學得開心、說得有自信，永遠保持好奇心。',
     'Apprendre le chinois': '學中文',
     "Apprendre l'anglais": '學英文',
     'Vous êtes une entreprise ? Découvrez les formations': '企業客戶？看看企業培訓方案',
@@ -330,10 +330,10 @@ T['zh-hant'] = {
     'Envoyer': '送出',
 
     # ---------- chinois ----------
-    'Cours de chinois — Naichi': '中文課程｜乃綺',
+    'Cours de chinois — Naichi': '中文課程｜Naichi',
     'Cours de chinois mandarin à Grenoble et en ligne : débutants, conversation, chinois professionnel, langue et culture.':
-        '格勒諾布爾及線上中文課程：零基礎入門、會話、商務中文、語言與文化。',
-    'Cours de chinois mandarin à Grenoble et en ligne': '格勒諾布爾・線上中文課程',
+        '法國・格勒及線上中文課程：零基礎入門、會話、商務中文、語言與文化。',
+    'Cours de chinois mandarin à Grenoble et en ligne': '法國・格勒及線上中文課程',
     'Apprenez le chinois avec plaisir et confiance': '開開心心學中文，自信開口說',
     'Vous souhaitez découvrir le mandarin, préparer un voyage à Taïwan ou en Chine, communiquer avec des partenaires professionnels ou simplement explorer une nouvelle langue ?':
         '想認識中文、準備去台灣或中國旅行、和說中文的工作夥伴溝通，或只是想挑戰一種新語言？',
@@ -356,16 +356,16 @@ T['zh-hant'] = {
     'Cours adaptés aux débutants et aux apprenants ayant déjà des connaissances': '零基礎或已有基礎都適合',
     "Priorité à la communication et à la confiance à l'oral": '重視溝通，培養開口說的自信',
     "Possibilité d'apprendre les caractères traditionnels ou simplifiés": '可選擇學習繁體字或簡體字',
-    'Cours individuels ou collectifs, en présentiel à Grenoble ou en ligne': '一對一或小班課程，可在格勒諾布爾面對面上課，也可線上進行',
+    'Cours individuels ou collectifs, en présentiel à Grenoble ou en ligne': '一對一或小班課程，可在法國・格勒面對面上課，也可線上進行',
     "Envie d'apprendre le chinois ?": '想開始學中文嗎？',
     'Contactez-moi pour échanger sur votre niveau, vos objectifs et les formules possibles. Tarifs sur demande.':
         '歡迎聯絡我，聊聊你的程度、目標和適合的上課方式。費用請來信詢問。',
 
     # ---------- anglais ----------
-    "Cours d'anglais — Naichi": '英文課程｜乃綺',
+    "Cours d'anglais — Naichi": '英文課程｜Naichi',
     "Cours d'anglais à Grenoble et en ligne : anglais général, conversation, Business English, préparation au TOEIC.":
-        '格勒諾布爾及線上英文課程：生活英文、英文會話、商用英文與多益準備。',
-    "Cours d'anglais à Grenoble et en ligne": '格勒諾布爾・線上英文課程',
+        '法國・格勒及線上英文課程：生活英文、英文會話、商用英文與多益準備。',
+    "Cours d'anglais à Grenoble et en ligne": '法國・格勒及線上英文課程',
     'Osez parler anglais avec confiance': '勇敢開口，自信說英文',
     "Vous comprenez l'anglais, mais vous hésitez à prendre la parole ? Vous souhaitez améliorer votre anglais pour votre travail, vos études, vos voyages ou simplement pour le plaisir ?":
         '聽得懂英文，卻不敢開口？想為了工作、學業、旅行，或單純為了興趣提升英文能力？',
@@ -394,15 +394,15 @@ T['zh-hant'] = {
         '歡迎聯絡我，討論你的需求，一起規劃適合你的學習計畫。費用請來信詢問。',
 
     # ---------- entreprises ----------
-    'Formations pour entreprises — Naichi': '企業培訓｜乃綺',
+    'Formations pour entreprises — Naichi': '企業培訓｜Naichi',
     'Formations en anglais professionnel, initiation au chinois et ateliers interculturels pour les entreprises de Grenoble et sa région.':
-        '為格勒諾布爾及周邊地區企業提供商用英文培訓、中文入門課程與跨文化工作坊。',
+        '為法國・格勒及周邊地區企業提供商用英文培訓、中文入門課程與跨文化工作坊。',
     'Formations linguistiques et ateliers interculturels pour entreprises': '企業語言培訓與跨文化工作坊',
     'Développez les compétences linguistiques et interculturelles de vos équipes': '提升團隊的語言能力與跨文化溝通力',
     "Vous travaillez avec des clients, collègues ou partenaires internationaux ? Vous souhaitez renforcer l'aisance de vos collaborateurs en anglais ou les initier au chinois mandarin ?":
         '需要和國際客戶、同事或合作夥伴往來嗎？希望員工說英文更自在，或想讓他們入門中文？',
     'Je propose des interventions adaptées aux besoins des entreprises, associations et organisations de Grenoble et de sa région.':
-        '我為格勒諾布爾及周邊地區的企業、協會與各類組織，提供量身規劃的培訓課程。',
+        '我為法國・格勒及周邊地區的企業、協會與各類組織，提供量身規劃的培訓課程。',
     'Formations en anglais professionnel': '職場英文培訓',
     'Communication orale et réunions': '口語溝通與會議',
     'Présentations et prise de parole': '簡報與公開發言',
@@ -428,10 +428,10 @@ T['zh-hant'] = {
     'Demander une proposition': '索取提案',
 
     # ---------- ateliers ----------
-    'Ateliers parents-enfants — Naichi': '親子工作坊｜乃綺',
+    'Ateliers parents-enfants — Naichi': '親子工作坊｜Naichi',
     'Ateliers parents-enfants à Grenoble pour les 2 à 8 ans : une histoire en chinois ou en anglais, puis un bricolage.':
-        '格勒諾布爾親子工作坊，適合 2 至 8 歲的孩子：先聽中文或英文故事，再一起上手作課。',
-    'Ateliers parents-enfants à Grenoble': '格勒諾布爾親子工作坊',
+        '法國・格勒親子工作坊，適合 2 至 8 歲的孩子：先聽中文或英文故事，再一起上手作課。',
+    'Ateliers parents-enfants à Grenoble': '法國・格勒親子工作坊',
     'Une histoire, un bricolage, une langue à découvrir': '聽故事、上手作課，一起認識新語言',
     'Des ateliers chaleureux pour les enfants de 2 à 8 ans et leurs parents : une histoire en chinois ou en anglais, puis un temps de bricolage inspiré du récit.':
         '為 2 至 8 歲孩子和爸媽設計的溫馨工作坊：先聽一個中文或英文故事，再上一堂和故事相關的手作課。',
@@ -463,14 +463,14 @@ T['zh-hant'] = {
         '歡迎聯絡我，了解下一場的日期並預約名額。費用請來信詢問。',
 
     # ---------- parcours ----------
-    'Mon parcours — Naichi': '關於我｜乃綺',
+    'Mon parcours — Naichi': '關於我｜Naichi',
     "Le parcours de Naichi, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
-        '認識乃綺：來自台灣、定居格勒諾布爾的中文與英文老師。',
+        '認識乃綺：來自台灣、定居法國・格勒的中文與英文老師。',
     'Mon parcours': '我的經歷',
     'Bonjour, je suis Naichi': '你好，我是乃綺',
     "Enseignante de chinois et d'anglais, passionnée par les langues et les cultures": '中文與英文老師，熱愛語言與文化',
     "Originaire de Taïwan et installée à Grenoble, j'ai construit mon parcours autour de l'enseignement, de la communication et des échanges interculturels.":
-        '我來自台灣，現居格勒諾布爾，一路走來的經歷都圍繞著教學、溝通與跨文化交流。',
+        '我來自台灣，現居法國・格勒，一路走來的經歷都圍繞著教學、溝通與跨文化交流。',
     "J'ai enseigné le chinois pendant plusieurs années aux États-Unis, auprès de lycéens et d'étudiants, avant de poursuivre mes activités pédagogiques en France.":
         '我曾在美國教中文多年，學生包括高中生和大學生，之後來到法國繼續從事教學工作。',
     "Aujourd'hui, j'enseigne le chinois mandarin et l'anglais à des apprenants de différents profils, notamment des adultes, des étudiants et des professionnels.":
@@ -504,17 +504,17 @@ T['zh-hans'] = {
     'Me contacter': '联系我',
     'Anglais': '英语',
     'Chinois': '中文',
-    '© 2026 Naichi · Langues & Cultures': '© 2026 乃绮 · 语言与文化',
-    'Grenoble · En ligne': '格勒诺布尔 · 线上',
+    '© 2026 Naichi · Langues & Cultures': '© 2026 Naichi · 语言与文化',
+    'Grenoble · En ligne': '法国・格勒及线上',
     # language samples in simplified characters
     '慢慢來，比較快。': '慢慢来，比较快。',
     '小事一樁': '小事一桩',
     '說': '说',
 
     # ---------- index ----------
-    'Naichi — Langues et Cultures': '乃绮｜语言与文化',
+    'Naichi — Langues et Cultures': 'Naichi｜语言与文化',
     "Cours de chinois mandarin et d'anglais à Grenoble et en ligne, formations pour entreprises et ateliers parents-enfants. Naichi, Langues & Cultures.":
-        '在格勒诺布尔及线上教授中文和英语，并提供企业语言培训与亲子工作坊。乃绮｜语言与文化',
+        '在法国・格勒及线上教授中文和英语，并提供企业语言培训与亲子工作坊。Naichi｜语言与文化',
     'Navigation principale': '主导航',
     'Cours': '课程',
     'Entreprises': '企业培训',
@@ -527,7 +527,7 @@ T['zh-hans'] = {
     'Chinois • Anglais • Cultures': '中文 • 英语 • 文化',
     'Apprenez une langue, découvrez un monde.': '学习一种语言，探索一个世界',
     "Des cours personnalisés de chinois et d'anglais à Grenoble et en ligne, pour apprendre avec plaisir, confiance et curiosité.":
-        '在格勒诺布尔或线上，为你量身定制的中文和英语课程，学得开心，说得自信，始终保持好奇心。',
+        '在法国・格勒或线上，为你量身定制的中文和英语课程，学得开心，说得自信，始终保持好奇心。',
     'Apprendre le chinois': '学中文',
     "Apprendre l'anglais": '学英语',
     'Vous êtes une entreprise ? Découvrez les formations': '企业客户？了解企业培训方案',
@@ -575,10 +575,10 @@ T['zh-hans'] = {
     'Envoyer': '发送',
 
     # ---------- chinois ----------
-    'Cours de chinois — Naichi': '中文课程｜乃绮',
+    'Cours de chinois — Naichi': '中文课程｜Naichi',
     'Cours de chinois mandarin à Grenoble et en ligne : débutants, conversation, chinois professionnel, langue et culture.':
-        '格勒诺布尔及线上中文课程：零基础入门、会话、商务中文、语言与文化。',
-    'Cours de chinois mandarin à Grenoble et en ligne': '格勒诺布尔・线上中文课程',
+        '法国・格勒及线上中文课程：零基础入门、会话、商务中文、语言与文化。',
+    'Cours de chinois mandarin à Grenoble et en ligne': '法国・格勒及线上中文课程',
     'Apprenez le chinois avec plaisir et confiance': '轻松学中文，自信开口说',
     'Vous souhaitez découvrir le mandarin, préparer un voyage à Taïwan ou en Chine, communiquer avec des partenaires professionnels ou simplement explorer une nouvelle langue ?':
         '想了解中文、准备去台湾或中国旅行、和讲中文的合作伙伴沟通，或者只是想挑战一门新语言？',
@@ -601,16 +601,16 @@ T['zh-hans'] = {
     'Cours adaptés aux débutants et aux apprenants ayant déjà des connaissances': '零基础和有一定基础的学习者都适合',
     "Priorité à la communication et à la confiance à l'oral": '注重沟通，培养开口说的自信',
     "Possibilité d'apprendre les caractères traditionnels ou simplifiés": '可选择学习繁体字或简体字',
-    'Cours individuels ou collectifs, en présentiel à Grenoble ou en ligne': '一对一或小班课，可在格勒诺布尔线下上课，也可在线学习',
+    'Cours individuels ou collectifs, en présentiel à Grenoble ou en ligne': '一对一或小班课，可在法国・格勒线下上课，也可在线学习',
     "Envie d'apprendre le chinois ?": '想开始学中文吗？',
     'Contactez-moi pour échanger sur votre niveau, vos objectifs et les formules possibles. Tarifs sur demande.':
         '欢迎联系我，聊聊你的水平、目标和合适的上课方式。费用请咨询。',
 
     # ---------- anglais ----------
-    "Cours d'anglais — Naichi": '英语课程｜乃绮',
+    "Cours d'anglais — Naichi": '英语课程｜Naichi',
     "Cours d'anglais à Grenoble et en ligne : anglais général, conversation, Business English, préparation au TOEIC.":
-        '格勒诺布尔及线上英语课程：日常英语、英语会话、商务英语和托业备考。',
-    "Cours d'anglais à Grenoble et en ligne": '格勒诺布尔・线上英语课程',
+        '法国・格勒及线上英语课程：日常英语、英语会话、商务英语和托业备考。',
+    "Cours d'anglais à Grenoble et en ligne": '法国・格勒及线上英语课程',
     'Osez parler anglais avec confiance': '大胆开口，自信说英语',
     "Vous comprenez l'anglais, mais vous hésitez à prendre la parole ? Vous souhaitez améliorer votre anglais pour votre travail, vos études, vos voyages ou simplement pour le plaisir ?":
         '听得懂英语，却不敢开口？想为了工作、学习、旅行，或者纯粹出于兴趣提升英语？',
@@ -639,15 +639,15 @@ T['zh-hans'] = {
         '欢迎联系我，沟通你的需求，一起规划适合你的学习计划。费用请咨询。',
 
     # ---------- entreprises ----------
-    'Formations pour entreprises — Naichi': '企业培训｜乃绮',
+    'Formations pour entreprises — Naichi': '企业培训｜Naichi',
     'Formations en anglais professionnel, initiation au chinois et ateliers interculturels pour les entreprises de Grenoble et sa région.':
-        '为格勒诺布尔及周边地区企业提供商务英语培训、中文入门课程和跨文化工作坊。',
+        '为法国・格勒及周边地区企业提供商务英语培训、中文入门课程和跨文化工作坊。',
     'Formations linguistiques et ateliers interculturels pour entreprises': '企业语言培训与跨文化工作坊',
     'Développez les compétences linguistiques et interculturelles de vos équipes': '提升团队的语言能力和跨文化沟通能力',
     "Vous travaillez avec des clients, collègues ou partenaires internationaux ? Vous souhaitez renforcer l'aisance de vos collaborateurs en anglais ou les initier au chinois mandarin ?":
         '需要和国际客户、同事或合作伙伴打交道吗？希望员工说英语更自如，或者想让他们入门中文？',
     'Je propose des interventions adaptées aux besoins des entreprises, associations et organisations de Grenoble et de sa région.':
-        '我为格勒诺布尔及周边地区的企业、协会和各类机构，提供量身定制的培训课程。',
+        '我为法国・格勒及周边地区的企业、协会和各类机构，提供量身定制的培训课程。',
     'Formations en anglais professionnel': '职场英语培训',
     'Communication orale et réunions': '口语沟通与会议',
     'Présentations et prise de parole': '汇报演讲与公开发言',
@@ -673,10 +673,10 @@ T['zh-hans'] = {
     'Demander une proposition': '获取方案',
 
     # ---------- ateliers ----------
-    'Ateliers parents-enfants — Naichi': '亲子工作坊｜乃绮',
+    'Ateliers parents-enfants — Naichi': '亲子工作坊｜Naichi',
     'Ateliers parents-enfants à Grenoble pour les 2 à 8 ans : une histoire en chinois ou en anglais, puis un bricolage.':
-        '格勒诺布尔亲子工作坊，适合 2 至 8 岁的孩子：先听中文或英语故事，再一起上手工课。',
-    'Ateliers parents-enfants à Grenoble': '格勒诺布尔亲子工作坊',
+        '法国・格勒亲子工作坊，适合 2 至 8 岁的孩子：先听中文或英语故事，再一起上手工课。',
+    'Ateliers parents-enfants à Grenoble': '法国・格勒亲子工作坊',
     'Une histoire, un bricolage, une langue à découvrir': '听故事、上手工课，一起认识新语言',
     'Des ateliers chaleureux pour les enfants de 2 à 8 ans et leurs parents : une histoire en chinois ou en anglais, puis un temps de bricolage inspiré du récit.':
         '为 2 至 8 岁孩子和家长设计的温馨工作坊：先听一个中文或英语故事，再上一堂和故事相关的手工课。',
@@ -708,14 +708,14 @@ T['zh-hans'] = {
         '欢迎联系我，了解下一场的日期并预约名额。费用请咨询。',
 
     # ---------- parcours ----------
-    'Mon parcours — Naichi': '关于我｜乃绮',
+    'Mon parcours — Naichi': '关于我｜Naichi',
     "Le parcours de Naichi, enseignante de chinois et d'anglais originaire de Taïwan, installée à Grenoble.":
-        '认识乃绮：来自台湾、定居格勒诺布尔的中文和英语老师。',
+        '认识乃绮：来自台湾、定居法国・格勒的中文和英语老师。',
     'Mon parcours': '我的经历',
     'Bonjour, je suis Naichi': '你好，我是乃绮',
     "Enseignante de chinois et d'anglais, passionnée par les langues et les cultures": '中文和英语老师，热爱语言与文化',
     "Originaire de Taïwan et installée à Grenoble, j'ai construit mon parcours autour de l'enseignement, de la communication et des échanges interculturels.":
-        '我来自台湾，现居格勒诺布尔，一路走来的经历都围绕着教学、沟通和跨文化交流。',
+        '我来自台湾，现居法国・格勒，一路走来的经历都围绕着教学、沟通和跨文化交流。',
     "J'ai enseigné le chinois pendant plusieurs années aux États-Unis, auprès de lycéens et d'étudiants, avant de poursuivre mes activités pédagogiques en France.":
         '我曾在美国教中文多年，学生包括高中生和大学生，之后来到法国继续从事教学工作。',
     "Aujourd'hui, j'enseigne le chinois mandarin et l'anglais à des apprenants de différents profils, notamment des adultes, des étudiants et des professionnels.":
