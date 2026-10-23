@@ -86,6 +86,9 @@ T['en'] = {
     'Votre message': 'Your message',
     'Envoyer →': 'Send →',
     'Envoyer': 'Send',
+    'Envoi en cours…': 'Sending…',
+    'Merci ! Votre message a bien été envoyé. Je vous répondrai très vite.': "Thank you! Your message has been sent. I'll get back to you soon.",
+    "Oups, l'envoi n'a pas fonctionné. Réessayez ou écrivez-moi à naichi.shih@gmail.com.": "Sorry, your message couldn't be sent. Please try again, or email me at naichi.shih@gmail.com.",
 
     # ---------- chinois ----------
     'Cours de chinois — Naichi': 'Chinese Lessons — Naichi',
@@ -328,6 +331,9 @@ T['zh-hant'] = {
     'Votre message': '留言內容',
     'Envoyer →': '送出 →',
     'Envoyer': '送出',
+    'Envoi en cours…': '傳送中…',
+    'Merci ! Votre message a bien été envoyé. Je vous répondrai très vite.': '謝謝！你的訊息已經送出，我會盡快回覆你。',
+    "Oups, l'envoi n'a pas fonctionné. Réessayez ou écrivez-moi à naichi.shih@gmail.com.": '抱歉，訊息沒有送出。請再試一次，或直接寫信到 naichi.shih@gmail.com。',
 
     # ---------- chinois ----------
     'Cours de chinois — Naichi': '中文課程｜Naichi',
@@ -573,6 +579,9 @@ T['zh-hans'] = {
     'Votre message': '留言内容',
     'Envoyer →': '发送 →',
     'Envoyer': '发送',
+    'Envoi en cours…': '发送中…',
+    'Merci ! Votre message a bien été envoyé. Je vous répondrai très vite.': '谢谢！你的留言已发送，我会尽快回复你。',
+    "Oups, l'envoi n'a pas fonctionné. Réessayez ou écrivez-moi à naichi.shih@gmail.com.": '抱歉，留言没有发送成功。请再试一次，或直接发邮件到 naichi.shih@gmail.com。',
 
     # ---------- chinois ----------
     'Cours de chinois — Naichi': '中文课程｜Naichi',

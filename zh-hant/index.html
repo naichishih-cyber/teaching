@@ -168,20 +168,56 @@ html{line-break:strict}
 <p style="margin: 0; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: #5E6668">語言與文化</p>
 </div>
 </div>
-<form action="mailto:naichi.shih@gmail.com" method="post" enctype="text/plain" style="flex: 1 1 360px; min-width: 0; background: #FFFFFF; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 12px">
+<form id="contact-form" action="https://api.web3forms.com/submit" method="post" data-msg-sending="傳送中…" data-msg-ok="謝謝！你的訊息已經送出，我會盡快回覆你。" data-msg-error="抱歉，訊息沒有送出。請再試一次，或直接寫信到 naichi.shih@gmail.com。" style="flex: 1 1 360px; min-width: 0; background: #FFFFFF; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 12px">
+<input type="hidden" name="access_key" value="6b6f2781-89b1-4c9a-8d20-0d2b42ba3646">
+<input type="hidden" name="subject" value="Nouveau message depuis le site Naichi">
+<input type="hidden" name="from_name" value="Site Naichi">
+<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none">
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
 <label style="flex: 1 1 150px; min-width: 0; display: flex; flex-direction: column; gap: 4px; font-size: 13px; font-weight: 600; color: #1E2526">姓名
-<input type="text" name="nom" autocomplete="name" required style="width: 100%; min-width: 0; box-sizing: border-box; height: 44px; border: 1px solid #D6D3CA; border-radius: 10px; padding: 0 12px; font: 400 15px 'Inter', sans-serif; background: #FAFAF7">
+<input type="text" name="name" autocomplete="name" required style="width: 100%; min-width: 0; box-sizing: border-box; height: 44px; border: 1px solid #D6D3CA; border-radius: 10px; padding: 0 12px; font: 400 15px 'Inter', sans-serif; background: #FAFAF7">
 </label>
 <label style="flex: 1 1 150px; min-width: 0; display: flex; flex-direction: column; gap: 4px; font-size: 13px; font-weight: 600; color: #1E2526">電子郵件
 <input type="email" name="email" autocomplete="email" required style="width: 100%; min-width: 0; box-sizing: border-box; height: 44px; border: 1px solid #D6D3CA; border-radius: 10px; padding: 0 12px; font: 400 15px 'Inter', sans-serif; background: #FAFAF7">
 </label>
 </div>
 <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; font-weight: 600; color: #1E2526">留言內容
-<textarea name="message" rows="3" style="width: 100%; min-width: 0; box-sizing: border-box; border: 1px solid #D6D3CA; border-radius: 10px; padding: 10px 12px; font: 400 15px 'Inter', sans-serif; background: #FAFAF7; resize: vertical"></textarea>
+<textarea name="message" rows="3" required style="width: 100%; min-width: 0; box-sizing: border-box; border: 1px solid #D6D3CA; border-radius: 10px; padding: 10px 12px; font: 400 15px 'Inter', sans-serif; background: #FAFAF7; resize: vertical"></textarea>
 </label>
 <button type="submit" style="align-self: flex-start; min-height: 46px; padding: 0 24px; border: 0; border-radius: 999px; background: #1F4A3D; color: #FFFFFF; font: 500 15px 'Inter', sans-serif; cursor: pointer">送出&nbsp;→</button>
+<p id="contact-status" role="status" aria-live="polite" hidden style="margin: 0; font-size: 14px; font-weight: 500; color: #1F4A3D"></p>
 </form>
+<script>
+(function () {
+  var form = document.getElementById('contact-form');
+  var status = document.getElementById('contact-status');
+  if (!form || !window.fetch) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var button = form.querySelector('button[type="submit"]');
+    var data = Object.fromEntries(new FormData(form));
+    data.language = document.documentElement.lang;
+    status.hidden = false;
+    status.style.color = '#1F4A3D';
+    status.textContent = form.dataset.msgSending;
+    button.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(data)
+    }).then(function (r) { return r.json(); }).then(function (res) {
+      if (!res.success) throw new Error(res.message);
+      form.reset();
+      status.textContent = form.dataset.msgOk;
+    }).catch(function () {
+      status.style.color = '#A33A3A';
+      status.textContent = form.dataset.msgError;
+    }).finally(function () {
+      button.disabled = false;
+    });
+  });
+})();
+</script>
 </section>
 
 <footer style="padding: 18px clamp(14px, 4vw, 28px) 22px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-size: 13px; color: #5E6668; border-top: 1px solid #E4E2DB">

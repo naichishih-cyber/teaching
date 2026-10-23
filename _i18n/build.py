@@ -88,8 +88,12 @@ def localize(src, page, code, missing):
     head, body = s.split('</head>', 1)
     head = re.sub(r'(<title>)(.*?)(</title>)', lambda m: m.group(1) + tr(m.group(2)) + m.group(3), head)
     head = re.sub(r'(<meta name="description" content=")([^"]*)(")', lambda m: m.group(1) + tr(m.group(2)).replace('"', '&quot;') + m.group(3), head)
-    body = re.sub(r'(>)([^<>]+)(<)', lambda m: m.group(1) + keep_punct(tr(m.group(2))) + m.group(3), body)
-    body = re.sub(r'( (?:alt|aria-label|placeholder|title)=")([^"]*)(")', lambda m: m.group(1) + tr(m.group(2)).replace('"', '&quot;') + m.group(3), body)
+    # translate text between tags, leaving <script> blocks untouched
+    parts = re.split(r'(<script\b.*?</script>)', body, flags=re.S)
+    for k in range(0, len(parts), 2):
+        parts[k] = re.sub(r'(>)([^<>]+)(<)', lambda m: m.group(1) + keep_punct(tr(m.group(2))) + m.group(3), parts[k])
+    body = ''.join(parts)
+    body = re.sub(r'( (?:alt|aria-label|placeholder|title|data-msg-[a-z]+)=")([^"]*)(")', lambda m: m.group(1) + tr(m.group(2)).replace('"', '&quot;') + m.group(3), body)
     s = head + '</head>' + body
 
     s = s.replace('<html lang="fr">', f'<html lang="{lang}">', 1)
