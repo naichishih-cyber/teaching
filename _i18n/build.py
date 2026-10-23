@@ -23,16 +23,17 @@ def esc(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
-def switcher(cur, up):
+def switcher(cur, up, page, dark):
+    on, off = ('#FFFFFF', '#B7D3C5') if dark else ('#1F4A3D', '#4B5355')
     parts = []
     for code, (folder, _, label) in LANGS.items():
-        href = up + (folder + '/' if folder else '') + 'index.html'
+        href = up + (folder + '/' if folder else '') + page
         active = code == cur
         font = "'Noto Sans TC', sans-serif" if label in '繁简' else "'Inter', sans-serif"
         parts.append(
             f'<a href="{href}" hreflang="{LANGS[code][1]}"{" aria-current=\"page\"" if active else ""} '
             f'style="display: inline-flex; align-items: center; justify-content: center; min-width: 32px; min-height: 44px; '
-            f'text-decoration: none; color: {"#1F4A3D" if active else "#4B5355"}; font: {600 if active else 500} 13px {font}">{label}</a>')
+            f'text-decoration: none; color: {on if active else off}; font: {600 if active else 500} 13px {font}">{label}</a>')
     return '\n<span aria-hidden="true">|</span>\n'.join(parts)
 
 
@@ -71,9 +72,9 @@ def localize(src, page, code, missing):
     s = head + '</head>' + body
 
     s = s.replace('<html lang="fr">', f'<html lang="{lang}">', 1)
-    # language switcher (homepage only)
-    s = re.sub(r'(<div role="group" aria-label="[^"]*"[^>]*>\n).*?(\n</div>)',
-               lambda m: m.group(1) + switcher(code, up) + m.group(2), s, count=1, flags=re.S)
+    # language switcher, linking to this same page in each language
+    s = re.sub(r'(<div role="group" aria-label="[^"]*"([^>]*)>\n).*?(</div>)',
+               lambda m: m.group(1) + switcher(code, up, page, '#7FA595' in m.group(2)) + '\n' + m.group(3), s, count=1, flags=re.S)
     # hreflang alternates
     s = re.sub(r'\n<link rel="alternate" hreflang=.*?(?=\n<link rel="preconnect")', '', s, flags=re.S)
     s = s.replace('\n<link rel="preconnect"', '\n' + alternates(page, up) + '\n<link rel="preconnect"', 1)
