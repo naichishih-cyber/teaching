@@ -297,7 +297,7 @@ T['zh-hant'] = {
     'Formations linguistiques et communication interculturelle.': '企業語言培訓與跨文化溝通。',
     'Une mère et sa fille réalisant un bricolage en papier': '媽媽和女兒在手作課上一起用紙創作',
     'Ateliers parents-enfants': '親子工作坊',
-    'Histoires en chinois ou en anglais, puis bricolage.': '用中文或英文說故事，接著一起上手作課。',
+    'Histoires en chinois ou en anglais, puis bricolage.': '中文或英文繪本故事，加親子手工課',
     'Portrait de Naichi': '乃綺的照片',
     'Bonjour, je suis Naichi !': '嗨，我是乃綺！',
     "Originaire de Taïwan, je suis enseignante de chinois et d'anglais, passionnée par les langues, les cultures et les échanges humains.":
@@ -542,7 +542,7 @@ T['zh-hans'] = {
     'Formations linguistiques et communication interculturelle.': '企业语言培训与跨文化沟通。',
     'Une mère et sa fille réalisant un bricolage en papier': '妈妈和女儿在手工课上一起用纸创作',
     'Ateliers parents-enfants': '亲子工作坊',
-    'Histoires en chinois ou en anglais, puis bricolage.': '用中文或英语讲故事，接着一起上手工课。',
+    'Histoires en chinois ou en anglais, puis bricolage.': '中文或英语绘本故事，加亲子手工课',
     'Portrait de Naichi': '乃绮的照片',
     'Bonjour, je suis Naichi !': '你好，我是乃绮！',
     "Originaire de Taïwan, je suis enseignante de chinois et d'anglais, passionnée par les langues, les cultures et les échanges humains.":
