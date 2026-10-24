@@ -66,7 +66,7 @@ T['en'] = {
     'M.A. enseignement du chinois langue étrangère': 'M.A. in Teaching Chinese as a Foreign Language',
     'En savoir plus sur mon parcours →': 'More about my background →',
     'Un peu de langue chaque mois': 'A little language every month',
-    'Phrase du jour': 'Phrase of the day',
+    'Phrase du mois': 'Phrase of the month',
     "Littéralement : « aller doucement, c'est plus rapide ». Pour encourager quelqu'un à prendre son temps, idéal pour apprendre une langue !":
         'Literally, “going slowly is faster.” A gentle way to tell someone to take their time — perfect advice for language learners!',
     'Astuce :': 'Tip:',
@@ -311,7 +311,7 @@ T['zh-hant'] = {
     'M.A. enseignement du chinois langue étrangère': '對外華語教學碩士',
     'En savoir plus sur mon parcours →': '更多關於我的經歷 →',
     'Un peu de langue chaque mois': '每月學一點',
-    'Phrase du jour': '每日一句',
+    'Phrase du mois': '每月一句',
     "Littéralement : « aller doucement, c'est plus rapide ». Pour encourager quelqu'un à prendre son temps, idéal pour apprendre une langue !":
         '法文也有類似的說法：« Rien ne sert de courir, il faut partir à point. » 學語言不用急，一步一步來，反而走得最快！',
     'Astuce :': '小撇步：',
@@ -559,7 +559,7 @@ T['zh-hans'] = {
     'M.A. enseignement du chinois langue étrangère': '对外汉语教学硕士',
     'En savoir plus sur mon parcours →': '了解我的经历 →',
     'Un peu de langue chaque mois': '每月学一点',
-    'Phrase du jour': '每日一句',
+    'Phrase du mois': '每月一句',
     "Littéralement : « aller doucement, c'est plus rapide ». Pour encourager quelqu'un à prendre son temps, idéal pour apprendre une langue !":
         '法语里也有类似的说法：« Rien ne sert de courir, il faut partir à point. » 学语言不用着急，稳扎稳打反而最快！',
     'Astuce :': '小贴士：',
